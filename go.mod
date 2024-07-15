@@ -1,6 +1,8 @@
-module github.com/gin-contrib/zap
+module github.com/ksusonic/ginzap
 
-go 1.19
+replace github.com/gin-contrib/zap => github.com/ksusonic/ginzap v0.0.0-20240715004337-bd3e6ea602f9
+
+go 1.22
 
 require (
 	github.com/gin-gonic/gin v1.10.0
@@ -29,9 +31,9 @@ require (
 	github.com/ugorji/go/codec v1.2.12 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/arch v0.8.0 // indirect
-	golang.org/x/crypto v0.24.0 // indirect
-	golang.org/x/net v0.26.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
+	golang.org/x/crypto v0.25.0 // indirect
+	golang.org/x/net v0.27.0 // indirect
+	golang.org/x/sys v0.22.0 // indirect
 	golang.org/x/text v0.16.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
